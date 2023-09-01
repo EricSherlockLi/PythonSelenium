@@ -8,6 +8,10 @@
 
 **Test Url**: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 
+## CICD Pipeline
+
+**Tool**: Jenkins + GHA
+
 ## References:
 
 https://www.youtube.com/watch?v=2DD-ynCIZ4w
