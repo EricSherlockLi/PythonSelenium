@@ -4,6 +4,8 @@
 
 ## Test Data:
 
+**Version**: Selenium 4
+
 **Test Url**: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 
 ## References:
