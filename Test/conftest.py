@@ -8,10 +8,10 @@ from selenium.webdriver.chrome.service import Service
 @pytest.fixture(scope="function")
 def driver():
     run_env = os.environ.get('RUN_ENV', 'local')
-    if run_env == 'local':
-        executable_path = r"C:\Users\hello\PythonSelenium\Test\utils\webdriver\chromedriver.exe"
+    if run_env == 'ci':
+        executable_path = '/usr/bin/chromedriver'
     else:
-        executable_path = 'chromedriver'
+        executable_path = r"C:\Users\hello\PythonSelenium\Test\utils\webdriver\chromedriver.exe"
 
     service = Service(executable_path=executable_path)
     options = webdriver.ChromeOptions()
