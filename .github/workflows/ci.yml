@@ -29,7 +29,11 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y chromium-chromedriver
-        sudo cp /usr/lib/chromium-browser/chromedriver /usr/bin
+
+    - name: Debug ChromeDriver
+      run: |
+        which chromedriver
+        chromedriver --version
 
     - name: Run tests
       run: python -m pytest
