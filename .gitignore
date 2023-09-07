@@ -1,0 +1,22 @@
+# Python 
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# pytest 
+.pytest_cache/
+
+# Jupyter notebook 
+.ipynb_checkpoints/
+
+# .env 
+.env
+
+# IDE 
+.idea/
+
+.DS_Store  # MacOS
+Thumbs.db  # Windows
